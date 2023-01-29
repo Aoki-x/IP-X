@@ -6,6 +6,6 @@
   - pkg install git
   - pkg install python
   - git clone (COMING)
-  - cd consultaIP
+  - cd IP-X
   - python3 install -r requirements.txt
   - python3 main.py
