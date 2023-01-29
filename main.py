@@ -84,14 +84,10 @@ while True:
             \t HOSTING: {data['security']['hosting']}\n
             ''')
         except:
-            print("\t\033[0;31;41mNão foi possível consultar a segurança do alvo.\033[0m")
-        
-        try:
-            back = int(input("\tDeseja consultar novamente?\n\t1 - Sim(Yes)\n\t2 - Não(No)\n\t|-->"))
-        except ValueError as error:
-            print(colored(error, "red"))
-            back = int(input("\tDeseja consultar novamente?\n\t1 - Sim(Yes)\n\t2 - Não(No)\n\t|-->"))
-        if back == 1:
+            print(colored("\tNão foi possível consultar a segurança do alvo.", "red"))
+
+        back = input(f"\tDeseja consultar novamente?\n\t1 - Sim(Yes)\n\t2 - Não(No)\n\t|-->")
+        if back == '1':
             continue
         else:
             break
