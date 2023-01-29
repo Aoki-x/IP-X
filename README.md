@@ -1,11 +1,11 @@
 # IP-X
 
   - Consulta de IP 
-# IINSTALAÇÃO
+# INSTALAÇÃO
   - apt-get update && apt-get upgrade -y
   - pkg install git
   - pkg install python
-  - git clone (COMING)
+  - git clone https://https://github.com/Aoki-x/IP-X
   - cd IP-X
-  - python3 install -r requirements.txt
+  - pip install -r requirements.txt
   - python3 main.py
